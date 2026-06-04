@@ -1,0 +1,4 @@
+ObjectiveID,ObjectiveType,ObjectiveName,Fields,Function,ReturnPeriod
+1,Maximize,ExpectedReturn,return,expected_return,1
+2,Minimize,StandardDeviation,return,expected_return,1
+3,Maximize,TVAR 100,return,tvar,100

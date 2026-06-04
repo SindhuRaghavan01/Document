@@ -1,0 +1,2 @@
+ConstraintID,ConstraintType,ConstraintName,Fields,Function,ReturnPeriod,MinValue,MaxValue
+1,MiniMax,PortfolioAUM,AUM,sum,1,12000000,15000000

@@ -1,0 +1,111 @@
+[
+  {
+    "sheet_name": "CrownOptimizationAnalysisDetail",
+    "header_row": 4,
+    "use_columns": "D:P",
+    "table_prefix": "OptimizationAnalysisDetails",
+    "columns": {
+      "OptimizationName": "nvarchar(255)",
+      "CreatedDate": "datetime",
+      "SeedLayerID": "nvarchar(255)",
+      "OptimizationLayerID": "nvarchar(255)",
+      "SecurityType": "nvarchar(255)",
+      "Vendor": "nvarchar(255)",
+      "PortfolioID": "int",
+      "FundName": "nvarchar(255)",
+      "ReportDate": "datetime",
+      "ReportID": "int",
+      "BrokerDataUpdateDate": "datetime",
+      "IsDefault": "int",
+      "IsDeleted": "int"
+    }
+  },
+  {
+    "sheet_name": "CrownOptimizationInput",
+    "header_row": 2,
+    "use_columns": "B:R",
+    "table_prefix": "OptimizationInput",
+    "columns": {
+      "ILSInstrumentID": "int",
+      "Updated_LayerID": "nvarchar (255)",
+      "description": "nvarchar (255)",
+      "CipherID": "nvarchar (255)",
+      "OptimizationLayerID": "nvarchar (255)",
+      "AUM": "float",
+      "Premium": "float",
+      "Initial_Fees": "float",
+      "Min_Share": "float",
+      "Max_Share": "float",
+      "Qscore": "float",
+      "layer_group": "nvarchar (50)",
+      "Enable_Exclude": "nvarchar (255)",
+      "Rein_Retro": "nvarchar (50)",
+      "Occ_Agg_QS": "nvarchar (50)",
+      "Status": "nvarchar (50)",
+      "OptimizationID": "int",
+      "Participation": "float"
+    },
+    "ignore_values": [
+      "ILSInstrumentID",
+      [
+        "0xf"
+      ]
+    ]
+  },
+  {
+    "sheet_name": "CrownOptimizationParameters",
+    "header_row": 3,
+    "use_columns": "D:K",
+    "table_prefix": "OptimizationParameters",
+    "columns": {
+      "Discretization": "float",
+      "Cardinality": "float",
+      "CorrelateGroups": "float",
+      "Solver": "nvarchar(255)",
+      "MutationRate": "float",
+      "SeedingOverride": "int",
+      "PopulationSize": "int",
+      "Iterations": "int",
+      "OptimizationID": "int"
+    },
+    "ignore_values": {}
+  },
+  {
+    "sheet_name": "CrownObjectivesConstraints",
+    "header_row": 4,
+    "use_columns": "H:AC",
+    "table_prefix": "Optimization_Objectives_Constraints",
+    "columns": {
+      "OptimizationID": "int",
+      "Criterion": "nvarchar (255)",
+      "Functions": "nvarchar (255)",
+      "Names": "nvarchar (255)",
+      "Types": "nvarchar (255)",
+      "Min": "float",
+      "Max": "float",
+      "Return_Period": "float",
+      "Loss_Perspective": "nvarchar (255)",
+      "Threshold": "float",
+      "IsInclusive": "nvarchar (255)",
+      "Fields": "nvarchar (255)",
+      "ProportionateTo": "nvarchar (255)",
+      "Defaults": "nvarchar (255)",
+      "WeightedAvg": "nvarchar (255)",
+      "ReturnPeriodUpper": "float",
+      "ReturnPeriodLower": "float",
+      "Layer_Groups": "nvarchar (255)",
+      "PrimaryPerspective": "nvarchar (255)",
+      "PrimaryLayerGroups": "nvarchar (255)",
+      "ComponentPerspective": "nvarchar (255)",
+      "ComponentLayerGroups": "nvarchar (255)",
+      "LossFilter": "nvarchar (255)"
+    },
+    "ignore_values": [
+      "Criterion",
+      [
+        0,
+        ""
+      ]
+    ]
+  }
+]

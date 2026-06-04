@@ -1,0 +1,15 @@
+{
+  "parameters": {
+    "solver": "NSGA2",
+    "iterations": 100,
+    "population_size": 50,
+    "seeded": false,
+    "crossover_method": "SBX",
+    "crossover_eta_c": 3,
+    "crossover_probability": 0.3,
+    "mutation_probability": 0.03,
+    "mutation_method": "polynomial",
+    "mutation_eta_m": 5,
+    "n_bits": 32
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "ServerConfig": {
+        "Alias": "CrownProd",
+        "DRIVER_NAME": "{SQL Server Native Client 11.0}",
+        "SERVER_NAME": "clv435pw-d7f8e2",
+        "DB_NAME": "ARAPL_Configuration",
+        "USERNAME": "ARAPL_USR",
+        "PASSWORD": "Arapl@123",
+        "param_string": "DRIVER={DRIVER_NAME};SERVER={SERVER};DATABASE={DB_NAME};UID={USERNAME};PWD={PASSWORD}",
+        "connection_string": "{param_string}"
+      },
+  "ServerConfig_sqlalchemy": {
+    "Alias": "CrownProd",
+    "DRIVER_NAME": "{SQL Server}",
+    "SERVER_NAME": "clv435pw-d7f8e2",
+    "DB_NAME": "ARAPL_Configuration",
+    "USERNAME": "ARAPL_USR",
+    "PASSWORD": "Arapl@123",
+    "param_string": "DRIVER={DRIVER_NAME};SERVER={SERVER};DATABASE={DB_NAME};UID={USERNAME};PWD={PASSWORD}",
+    "connection_string": "mssql+pyodbc:///?odbc_connect={param_string}"
+  }
+}
