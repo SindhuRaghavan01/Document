@@ -1,0 +1,1505 @@
+Date: Mon, 8 May 2023 00:31:32 -0700 (PDT)
+Message-ID: <532226577.19646.1683531092311@clv335pw-bf322d.core.pimcocloud.net>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_19645_1282752851.1683531092309"
+
+------=_Part_19645_1282752851.1683531092309
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Crown_Damage_Ratio_FileFormat</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Crown_Damage_Ratio_FileFormat</h1>
+    <div class=3D"Section1">
+        <p><span style=3D"color: rgb(0,112,192);"><strong>Crown =E2=80=93 C=
+reate DR File for CRI Exposure Analysis</strong></span> <br class=3D"atl-fo=
+rced-newline"> <strong>Objective</strong>: To create the damage ratio based=
+ on Analysis Type =E2=80=93 Shape, Ring, and Custom Shape Analysis.<br> *1.=
+ Shape Analysis =E2=80=93 DR file:-* <br> In case of shape Analysis job 1<s=
+up>st</sup> and 2<sup>nd</sup> column in the excel sheet should always be "=
+MinAttributeValue" and "MaxAttributeValue" whereas the last column should b=
+e DR (damage ratio)<br> EX- </p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>MinAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>MaxAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> *2. Custom Shape Analysis =E2=80=93 DR=
+ file:-* <br> In case of custom shape Analysis 1<sup>st</sup> column in the=
+ excel sheet should always be "ShapeName" whereas the last column should be=
+ DR (damage ratio).<br> EX- </p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>ShapeName</p></td>=20
+<td class=3D"confluenceTd"><p>DR </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Graphic1</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Graphic2</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Graphic3</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> 3. Ring Analysis =E2=80=93 DR file:-<b=
+r> In case of Ring Analysis 1<sup>st</sup> column in the excel sheet should=
+ always be "Radius" whereas the last column should be DR (damage ratio)<br>=
+ For Ring Analysis =E2=80=93 There are 4 type of Scale:- <br> 1. Feet<br> 2=
+. Meter<br> 3. Kilometer<br> 4. Mile <br class=3D"atl-forced-newline"> <br =
+class=3D"atl-forced-newline"> Ex of Feet Scale:- </p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Radius</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>3580</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>5061</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>4560</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>8210</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> Ex o=
+f Meter Scale:- </p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Radius</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>1000</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>2000</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>3000</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>4000</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> Ex o=
+f Kilometer Scale:- </p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Radius</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>1</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>5</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>10</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>20</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br =
+class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> Ex of Feet =
+Scale:- </p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Radius</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0.5697</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>1.5698</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>5.5687</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>8.4569</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <span class=3D"confluence-anchor-link"=
+ id=3D"Crown_Damage_Ratio_FileFormat-_GoBack"></span><strong>Objective</str=
+ong>: To consider the damage ratio based on combination of different parame=
+ters such as Occupancy Type, Construction, and Year Built etc. <br class=3D=
+"atl-forced-newline"> For illustration, let us consider Construction group =
+and Occupancy group for different locations while choosing the damage ratio=
+. <br class=3D"atl-forced-newline"> <strong><span style=3D"text-decoration:=
+ underline;">Scenario 1</span></strong> <strong>- Shape Analysis :-</strong=
+> <br> Location Id : 120, Attribute Value : 66, Construction Group : Light =
+Metal, Occupancy Group : Education<br> Damage ratio for LocId =E2=80=93 120=
+ would be 0.077 <br class=3D"atl-forced-newline"> <br class=3D"atl-forced-n=
+ewline"></p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>MinAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>MaxAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>Construction Group</p></td>=20
+<td class=3D"confluenceTd"><p>Occupancy Group</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>0.0057</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>0.025</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>0.077</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>0.21</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>0.51</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>1.1</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>2.5</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>5.7</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>12</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>24</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>41</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>53</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>63</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>71</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>78</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>200</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Education</p></td>=20
+<td class=3D"confluenceTd"><p>82</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br =
+class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=
+=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl=
+-forced-newline"> <br class=3D"atl-forced-newline"> <strong><span style=3D"=
+text-decoration: underline;">Scenario 2</span></strong><br> Location Id : 1=
+20, Attribute Value : 66, Construction Group : Reinforced Concrete, <br> Oc=
+cupancy Group : Industrial<br> Damage ratio for LocId =E2=80=93 120 would b=
+e 5.7 <br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"></=
+p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>MinAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>MaxAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>Construction Group</p></td>=20
+<td class=3D"confluenceTd"><p>Occupancy Group</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>0.0057</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>0.025</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>5.7</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>0.21</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>0.51</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>1.1</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>2.5</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>0.077</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>12</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>24</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>41</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>53</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>63</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>71</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>78</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>200</p></td>=20
+<td class=3D"confluenceTd"><p>Reinforced Concrete</p></td>=20
+<td class=3D"confluenceTd"><p>Industrial</p></td>=20
+<td class=3D"confluenceTd"><p>82</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br =
+class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=
+=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl=
+-forced-newline"> <br class=3D"atl-forced-newline"> <strong><span style=3D"=
+text-decoration: underline;">Scenario 3</span></strong><br> Location Id : 1=
+20, Attribute Value : 66, Construction Group : Light Metal, <br> Occupancy =
+Group : Miscellaneous<br> Damage ratio for LocId =E2=80=93 120 would be 1.1=
+ <br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br cl=
+ass=3D"atl-forced-newline"></p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>MinAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>MaxAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>Construction Group</p></td>=20
+<td class=3D"confluenceTd"><p>Occupancy Group</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>0.0057</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>0.025</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>1.1</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>0.21</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>0.51</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>0.077</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>2.5</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>5.7</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>12</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>24</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>41</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>53</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>63</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>71</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>78</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>200</p></td>=20
+<td class=3D"confluenceTd"><p>Light Metal</p></td>=20
+<td class=3D"confluenceTd"><p>Miscellaneous</p></td>=20
+<td class=3D"confluenceTd"><p>82</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br =
+class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=
+=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl=
+-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl-forced=
+-newline"> <strong><span style=3D"text-decoration: underline;">Scenario 4</=
+span></strong><br> Location Id : 120, Attribute Value : 66, Construction Gr=
+oup : Steel, Occupancy Group : Commercial<br> Damage ratio for LocId =E2=80=
+=93 120 would be 0.179 <br class=3D"atl-forced-newline"> <br class=3D"atl-f=
+orced-newline"> <br class=3D"atl-forced-newline"></p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>MinAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>MaxAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>Construction Group</p></td>=20
+<td class=3D"confluenceTd"><p>Occupancy Group</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.0057</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.025</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.179</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.21</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.51</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>1.1</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>2.5</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>5.7</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>12</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>24</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>41</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>53</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>63</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>71</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>78</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>200</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>82</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br =
+class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=
+=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl=
+-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl-forced=
+-newline"> <br class=3D"atl-forced-newline"> <strong><span style=3D"text-de=
+coration: underline;">Scenario 5</span></strong><br> Location Id : 120, Att=
+ribute Value : 66, Occupancy Group : Commercial<br> Construction Group : Ma=
+sonry (which is not present in the Excel) or blank i.e. no information avai=
+lable for the LocId - 120 <br> Damage ratio for LocId =E2=80=93 120 would b=
+e 0.029 <br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline">=
+ <br class=3D"atl-forced-newline"></p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>MinAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>MaxAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>Construction Group</p></td>=20
+<td class=3D"confluenceTd"><p>Occupancy Group</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.0057</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.025</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.029</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.21</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>0.51</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>1.1</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>2.5</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>5.7</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>12</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>24</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>41</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>53</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>63</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>71</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>78</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>200</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>Commercial</p></td>=20
+<td class=3D"confluenceTd"><p>82</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br =
+class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=
+=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl=
+-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl-forced=
+-newline"> <strong><span style=3D"text-decoration: underline;">Scenario 6</=
+span></strong><br> Location Id : 120, Attribute Value : 66, Construction Gr=
+oup: Steel<br> Occupancy Group: Public/Government (which is not present in =
+the Excel) or blank i.e. no information available for the LocId - 120 <br> =
+Damage ratio for LocId =E2=80=93 120 would be 0.077 <br class=3D"atl-forced=
+-newline"> <br class=3D"atl-forced-newline"></p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>MinAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>MaxAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>Construction Group</p></td>=20
+<td class=3D"confluenceTd"><p>Occupancy Group</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.0057</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.025</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.077</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.21</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.51</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>1.1</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>2.5</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>5.7</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>12</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>24</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>41</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>53</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>63</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>71</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>78</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>200</p></td>=20
+<td class=3D"confluenceTd"><p>Steel</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>82</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br =
+class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=
+=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl=
+-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl-forced=
+-newline"> <br class=3D"atl-forced-newline"> <strong><span style=3D"text-de=
+coration: underline;">Scenario 7</span></strong><br> Location Id : 120, Att=
+ribute Value : 66, Construction Group: Steel ,Occupancy Group: Public/Gover=
+nment In this case neither Construction group nor Occupancy group is availa=
+ble for the LocId - 120 or damage ration for respective values are not avai=
+lable.<br> Damage ratio for LocId =E2=80=93 120 would be 0.077 <br class=3D=
+"atl-forced-newline"> <br class=3D"atl-forced-newline"></p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>MinAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>MaxAttributeValue</p></td>=20
+<td class=3D"confluenceTd"><p>Construction Group</p></td>=20
+<td class=3D"confluenceTd"><p>Occupancy Group</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.0057</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>50</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.025</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.077</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>70</p></td>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.21</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>80</p></td>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>0.51</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>90</p></td>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>1.1</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>100</p></td>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>2.5</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>110</p></td>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>5.7</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>120</p></td>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>12</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>130</p></td>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>24</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>140</p></td>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>41</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>150</p></td>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>53</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>160</p></td>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>63</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>170</p></td>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>71</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>180</p></td>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>78</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>190</p></td>=20
+<td class=3D"confluenceTd"><p>200</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>82</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <str=
+ong><span style=3D"text-decoration: underline;">Summary</span></strong>: </=
+p>=20
+<ol>=20
+<li>Highest precedence would be for the value where all attributes are cons=
+idered - 4 in the above case i.e. MinAttributeValue, MaxAttributeValue, Con=
+struction Group, Occupancy Group.</li>=20
+<li>Second precedence would be for 3 attributes i.e. MinAttributeValue, Max=
+AttributeValue and either Occupancy Group or Construction Group.</li>=20
+<li>If no other attribute matches then by default only MinAttributeValue, M=
+axAttributeValue would be considered and respective damage ratio for the lo=
+cation Id would be taken.</li>=20
+<li>In the case of more than two columns are added then precedence of the c=
+olumns goes on decreasing from left to right i.e. column next to MinAttribu=
+teValue would be the highest precedent column and the last column before DR=
+ would be the least precedent column.</li>=20
+</ol>=20
+<p><br class=3D"atl-forced-newline"> <span style=3D"text-decoration: underl=
+ine;">Points to remember while using this functionality:</span> <br class=
+=3D"atl-forced-newline"></p>=20
+<ol>=20
+<li>Fixed columns :</li>=20
+</ol>=20
+<ul>=20
+<li>In case of shape Analysis job 1<sup>st</sup> and 2<sup>nd</sup> column =
+in the excel sheet should always be "MinAttributeValue" and "MaxAttributeVa=
+lue" whereas the last column should be DR (damage ratio)</li>=20
+<li>In case of custom shape Analysis 1<sup>st</sup> column in the excel she=
+et should always be "ShapeName" whereas the last column should be DR (damag=
+e ratio)</li>=20
+<li>In case of Ring Analysis 1<sup>st</sup> column in the excel sheet shoul=
+d always be "Radius" whereas the last column should be DR (damage ratio)</l=
+i>=20
+</ul>=20
+<p><br class=3D"atl-forced-newline"></p>=20
+<ol>=20
+<li>Following naming convention should be followed while inserting columns<=
+/li>=20
+</ol>=20
+<ul>=20
+<li>Building Class : BLDGCLASS</li>=20
+<li>Construction Group : CONSTRUCTION_GROUP</li>=20
+<li>Occupancy Type : OCCTYPE</li>=20
+<li>Occupancy Group <span style=3D"color: rgb(163,21,21);">:</span> OCC_MAJ=
+OROCCUPANCYGROUP</li>=20
+<li>Building Scheme : BLDGSCHEME</li>=20
+<li>Occupancy Scheme : OCCSCHEME</li>=20
+<li>Number Of Stories : NUMSTORIES</li>=20
+<li>Year Built : YEARBUILT</li>=20
+<li>Year Built Range: YEARBUILTRANGE</li>=20
+<li>Number Of Stories Range : NUMSTORIESRANGE</li>=20
+</ul>=20
+<p><br class=3D"atl-forced-newline"></p>=20
+<ol>=20
+<li>While creating ranges make sure that the lowest value in the range is e=
+ither redundant or lower than the possible lowest value in the data. For ex=
+ample, if different locations have yearbuilt from 1942 to 2016 then minimum=
+ range in the excel should be 1940 or 41 but not 1942.</li>=20
+</ol>=20
+<p><br class=3D"atl-forced-newline"></p>=20
+<ol>=20
+<li>Always provide default case Damage ratio. If default value is not provi=
+ded then in those scenarios where no match is found in the .csv, damage rat=
+io 0 would be assigned.</li>=20
+</ol>=20
+<p>To illustrate consider the following file data:</p>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>ShapeName</p></td>=20
+<td class=3D"confluenceTd"><p>BldgClass</p></td>=20
+<td class=3D"confluenceTd"><p>DR</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Square</p></td>=20
+<td class=3D"confluenceTd"><p>RMS 3</p></td>=20
+<td class=3D"confluenceTd"><p>40</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>Circle</p></td>=20
+<td class=3D"confluenceTd"><p>RMS 3</p></td>=20
+<td class=3D"confluenceTd"><p>60</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>=20
+<p>Then for all other locations where BldgClass is other than RMS 3 zero da=
+mages would be applied. <br class=3D"atl-forced-newline"> <br class=3D"atl-=
+forced-newline"></p>
+    </div>
+</body>
+</html>
+------=_Part_19645_1282752851.1683531092309--
